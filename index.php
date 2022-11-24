@@ -19,22 +19,22 @@
 <body>
   <?php include "shared/navbar.php"; ?>
   <!-- body -->
-  <div class="container-fluid p-4 mt-2">
+  <div class="container-fluid mt-5 p-0">
     <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
       <div class="carousel-inner">
-        <div style="background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(' http://ascrdi.com/jkkniu-new/wp-content/uploads/building-1-1.jpg');background-size:cover; background-position:center center;" class="carousel-item active text-center text-white p-2">
-          <div style="padding-top: 120px;padding-bottom:100px">
-            <h2 class="fw-bold fs-3">Jatiya Kabi Kazi Nazrul Islam University Journals</h2>
+        <div style="background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(' http://ascrdi.com/jkkniu-new/wp-content/uploads/building-1-1.jpg');background-size:cover; background-position:center center;background-repeat:no-repeat;" class="carousel-item active text-center text-white p-2">
+          <div style="padding-top: 160px;padding-bottom:120px">
+            <!-- <h2 class="fw-bold fs-3">Jatiya Kabi Kazi Nazrul Islam University Journals</h2> -->
           </div>
         </div>
-        <div style="background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(' http://ascrdi.com/jkkniu-new/wp-content/uploads/building-1-1.jpg');background-size:cover; background-position:center center;" class="carousel-item text-center text-white p-2">
-          <div style="padding-top: 120px;padding-bottom:100px">
-            <h2 class="fw-bold fs-3">Jatiya Kabi Kazi Nazrul Islam University Journals</h2>
+        <div style="background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(' http://ascrdi.com/jkkniu-new/wp-content/uploads/building-1-1.jpg');background-size:cover; background-position:center center;background-repeat:no-repeat;" class="carousel-item text-center text-white p-2">
+          <div style="padding-top: 160px;padding-bottom:120px">
+            <!-- <h2 class="fw-bold fs-3">Jatiya Kabi Kazi Nazrul Islam University Journals</h2> -->
           </div>
         </div>
-        <div style="background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(' http://ascrdi.com/jkkniu-new/wp-content/uploads/building-1-1.jpg');background-size:cover; background-position:center center;" class="carousel-item active text-center text-white p-2">
-          <div style="padding-top: 120px;padding-bottom:100px">
-            <h2 class="fw-bold fs-3">Jatiya Kabi Kazi Nazrul Islam University Journals</h2>
+        <div style="background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(' http://ascrdi.com/jkkniu-new/wp-content/uploads/building-1-1.jpg');background-size:cover; background-position:center center;background-repeat:no-repeat;" class="carousel-item active text-center text-white p-2">
+          <div style="padding-top: 160px;padding-bottom:120px">
+            <!-- <h2 class="fw-bold fs-3">Jatiya Kabi Kazi Nazrul Islam University Journals</h2> -->
           </div>
         </div>
       </div>
@@ -63,84 +63,159 @@
       </div>
     </div>
 
-    <h4 class="fw-bold px-0 py-2 text-left bg-white mt-3">Featured</h4>
-
-    <div>
-      <div class="row row-cols-1 row-cols-md-4 g-4">
-        <div class="col">
-          <a style="color:inherit;" href="">
-            <div style="border-radius: 0;" class="card h-100">
-              <div style="overflow: hidden;">
-                <img class="article-home-card-img" src="https://file.techscience.com/uploads/imgs/202211/3b65d6be04fc3d8e09fbe5736508fc27.png/w328x117?t=20220620" class="card-img-top" alt="...">
+    <div class="bg-light p-4">
+      <h4 class="fw-bold px-0 py-2 text-left bg-light">Featured</h4>
+      <div>
+        <div class="row row-cols-1 row-cols-md-4 g-4">
+          <div class="col">
+            <a class="h-100" style="color:inherit;" href="">
+              <div style="border-radius: 0;" class="card h-100 card-hover shadow">
+                <div style="overflow: hidden;">
+                  <img class="article-home-card-img" src="https://file.techscience.com/uploads/imgs/202211/3b65d6be04fc3d8e09fbe5736508fc27.png/w328x117?t=20220620" class="card-img-top" alt="...">
+                </div>
+                <div class="card-body">
+                  <small class="fw-500" style="font-size:12px;">Computers, Materials & Continua</small><br>
+                  <span style="background-color: brown;color:white;" class="px-1 rounded">Article</span><br>
+                  <h class="card-title fs-6 fw-bold">Automated File Labeling for Heterogeneous Files Organization Using Machine Learning</h5>
+                    <p class="card-text mt-3">File labeling techniques have a long history in analyzing the anthological trends in computational linguistics. The situation becomes worse in the case....</p>
+                </div>
+                <div style="border-top: 1px solid white;" class="card-footer bg-white">
+                  <a style="color: brown;font-size:14px;" href="">Read more --></a>
+                </div>
               </div>
-              <div class="card-body">
-                <small class="fw-500" style="font-size:12px;">Computers, Materials & Continua</small><br>
-                <span style="background-color: brown;color:white;" class="px-1 rounded">Article</span><br>
-                <h class="card-title fs-6 fw-bold">Automated File Labeling for Heterogeneous Files Organization Using Machine Learning</h5>
-                  <p class="card-text mt-3">File labeling techniques have a long history in analyzing the anthological trends in computational linguistics. The situation becomes worse in the case....</p>
+            </a>
+          </div>
+          <div class="col">
+            <a class="h-100" style="color:inherit;" href="">
+              <div style="border-radius: 0;" class="card h-100 card-hover card-hover shadow">
+                <div style="overflow: hidden;">
+                  <img class="article-home-card-img" src="https://file.techscience.com/uploads/imgs/202211/4d12fe0cd8e0f9094a660c06818da20d.png/w328x117?t=20220620" class="card-img-top" alt="...">
+                </div>
+                <div class="card-body">
+                  <small class="fw-500" style="font-size:12px;">Computers, Materials & Continua</small><br>
+                  <span style="background-color: brown;color:white;" class="px-1 rounded">Article</span><br>
+                  <h class="card-title fs-6 fw-bold">Automated File Labeling for Heterogeneous Files Organization Using Machine Learning</h5>
+                    <p class="card-text mt-3">File labeling techniques have a long history in analyzing the anthological trends in computational linguistics. The situation becomes worse in the case....</p>
+                </div>
+                <div style="border-top: 1px solid white;" class="card-footer bg-white">
+                  <a style="color: brown;font-size:14px;" href="">Read more --></a>
+                </div>
               </div>
-              <div style="border-top: 1px solid white;" class="card-footer bg-white">
-                <a style="color: brown;font-size:14px;" href="">Read more --></a>
+            </a>
+          </div>
+          <div class="col">
+            <a class="h-100" style="color:inherit;" href="">
+              <div style="border-radius: 0;" class="card h-100 card-hover shadow">
+                <div style="overflow: hidden;">
+                  <img class="article-home-card-img" src="https://file.techscience.com/uploads/imgs/202211/f0767135405c37e2d7a10a684dbafcbd.png/w328x117?t=20220620" class="card-img-top" alt="...">
+                </div>
+                <div class="card-body">
+                  <small class="fw-500" style="font-size:12px;">Computers, Materials & Continua</small><br>
+                  <span style="background-color: brown;color:white;" class="px-1 rounded">Article</span><br>
+                  <h class="card-title fs-6 fw-bold">Automated File Labeling for Heterogeneous Files Organization Using Machine Learning</h5>
+                    <p class="card-text mt-3">File labeling techniques have a long history in analyzing the anthological trends in computational linguistics. The situation becomes worse in the case....</p>
+                </div>
+                <div style="border-top: 1px solid white;" class="card-footer bg-white">
+                  <a style="color: brown;font-size:14px;" href="">Read more --></a>
+                </div>
               </div>
-            </div>
-          </a>
-        </div>
-        <div class="col">
-          <a style="color:inherit;" href="">
-            <div style="border-radius: 0;" class="card h-100">
-              <div style="overflow: hidden;">
-                <img class="article-home-card-img" src="https://file.techscience.com/uploads/imgs/202211/3b65d6be04fc3d8e09fbe5736508fc27.png/w328x117?t=20220620" class="card-img-top" alt="...">
+            </a>
+          </div>
+          <div class="col">
+            <a class="h-100" style="color:inherit;" href="">
+              <div style="border-radius: 0;" class="card h-100 card-hover shadow">
+                <div style="overflow: hidden;">
+                  <img class="article-home-card-img" src="https://file.techscience.com/uploads/imgs/202211/3b65d6be04fc3d8e09fbe5736508fc27.png/w328x117?t=20220620" class="card-img-top" alt="...">
+                </div>
+                <div class="card-body">
+                  <small class="fw-500" style="font-size:12px;">Computers, Materials & Continua</small><br>
+                  <span style="background-color: brown;color:white;" class="px-1 rounded">Article</span><br>
+                  <h class="card-title fs-6 fw-bold">Automated File Labeling for Heterogeneous Files Organization Using Machine Learning</h5>
+                    <p class="card-text mt-3">File labeling techniques have a long history in analyzing the anthological trends in computational linguistics. The situation becomes worse in the case....</p>
+                </div>
+                <div style="border-top: 1px solid white;" class="card-footer bg-white">
+                  <a style="color: brown;font-size:14px;" href="">Read more --></a>
+                </div>
               </div>
-              <div class="card-body">
-                <small class="fw-500" style="font-size:12px;">Computers, Materials & Continua</small><br>
-                <span style="background-color: brown;color:white;" class="px-1 rounded">Article</span><br>
-                <h class="card-title fs-6 fw-bold">Automated File Labeling for Heterogeneous Files Organization Using Machine Learning</h5>
-                  <p class="card-text mt-3">File labeling techniques have a long history in analyzing the anthological trends in computational linguistics. The situation becomes worse in the case....</p>
-              </div>
-              <div style="border-top: 1px solid white;" class="card-footer bg-white">
-                <a style="color: brown;font-size:14px;" href="">Read more --></a>
-              </div>
-            </div>
-          </a>
-        </div>
-        <div class="col">
-          <a style="color:inherit;" href="">
-            <div style="border-radius: 0;" class="card h-100">
-              <div style="overflow: hidden;">
-                <img class="article-home-card-img" src="https://file.techscience.com/uploads/imgs/202211/3b65d6be04fc3d8e09fbe5736508fc27.png/w328x117?t=20220620" class="card-img-top" alt="...">
-              </div>
-              <div class="card-body">
-                <small class="fw-500" style="font-size:12px;">Computers, Materials & Continua</small><br>
-                <span style="background-color: brown;color:white;" class="px-1 rounded">Article</span><br>
-                <h class="card-title fs-6 fw-bold">Automated File Labeling for Heterogeneous Files Organization Using Machine Learning</h5>
-                  <p class="card-text mt-3">File labeling techniques have a long history in analyzing the anthological trends in computational linguistics. The situation becomes worse in the case....</p>
-              </div>
-              <div style="border-top: 1px solid white;" class="card-footer bg-white">
-                <a style="color: brown;font-size:14px;" href="">Read more --></a>
-              </div>
-            </div>
-          </a>
-        </div>
-        <div class="col">
-          <a style="color:inherit;" href="">
-            <div style="border-radius: 0;" class="card h-100">
-              <div style="overflow: hidden;">
-                <img class="article-home-card-img" src="https://file.techscience.com/uploads/imgs/202211/3b65d6be04fc3d8e09fbe5736508fc27.png/w328x117?t=20220620" class="card-img-top" alt="...">
-              </div>
-              <div class="card-body">
-                <small class="fw-500" style="font-size:12px;">Computers, Materials & Continua</small><br>
-                <span style="background-color: brown;color:white;" class="px-1 rounded">Article</span><br>
-                <h class="card-title fs-6 fw-bold">Automated File Labeling for Heterogeneous Files Organization Using Machine Learning</h5>
-                  <p class="card-text mt-3">File labeling techniques have a long history in analyzing the anthological trends in computational linguistics. The situation becomes worse in the case....</p>
-              </div>
-              <div style="border-top: 1px solid white;" class="card-footer bg-white">
-                <a style="color: brown;font-size:14px;" href="">Read more --></a>
-              </div>
-            </div>
-          </a>
+            </a>
+          </div>
         </div>
       </div>
     </div>
+
+    <div style="background-color: #FFFFCC;" class="p-4 mt-4">
+      <h4 class="fw-bold px-0 py-2 text-center">Latest News</h4>
+      <div>
+        <div class="row row-cols-1 row-cols-md-4 g-4">
+          <div class="col">
+            <a class="h-100" style="color:inherit;" href="">
+              <div style="border-radius: 0;" class="card h-100 card-hover shadow">
+                <div style="overflow: hidden;">
+                  <img style="width: 100%;" class="article-home-card-img" src="http://ascrdi.com/jkkniu-new/wp-content/uploads/Mou_Asam-1200x800.jpg" class="card-img-top" alt="...">
+                </div>
+                <div class="card-body">
+                  <h class="card-title fs-6 fw-bold">নজরুল বিশ্ববিদ্যালয় ও আসাম ডাউন টাউন বিশ্ববিদ্যালয়ের মধ্যে সমঝোতা স্মারক স্বাক্ষরিত</h5>
+                </div>
+                <div class="card-footer bg-white">
+                  <i class="icon-calendar"></i>
+                  August 9, 2022
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col">
+            <a class="h-100" style="color:inherit;" href="">
+              <div style="border-radius: 0;" class="card h-100 card-hover shadow">
+                <div style="overflow: hidden;">
+                  <img style="width: 100%;" class="article-home-card-img" src="http://ascrdi.com/jkkniu-new/wp-content/uploads/Mou_Asam-1200x800.jpg" class="card-img-top" alt="...">
+                </div>
+                <div class="card-body">
+                  <h class="card-title fs-6 fw-bold">নজরুল বিশ্ববিদ্যালয় ও আসাম ডাউন টাউন বিশ্ববিদ্যালয়ের মধ্যে সমঝোতা স্মারক স্বাক্ষরিত</h5>
+                </div>
+                <div class="card-footer bg-white">
+                  <i class="icon-calendar"></i>
+                  August 9, 2022
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col">
+            <a class="h-100" style="color:inherit;" href="">
+              <div style="border-radius: 0;" class="card h-100 card-hover shadow">
+                <div style="overflow: hidden;">
+                  <img style="width: 100%;" class="article-home-card-img" src="http://ascrdi.com/jkkniu-new/wp-content/uploads/Mou_Asam-1200x800.jpg" class="card-img-top" alt="...">
+                </div>
+                <div class="card-body">
+                  <h class="card-title fs-6 fw-bold">নজরুল বিশ্ববিদ্যালয় ও আসাম ডাউন টাউন বিশ্ববিদ্যালয়ের মধ্যে সমঝোতা স্মারক স্বাক্ষরিত</h5>
+                </div>
+                <div class="card-footer bg-white">
+                  <i class="icon-calendar"></i>
+                  August 9, 2022
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col">
+            <a class="h-100" style="color:inherit;" href="">
+              <div style="border-radius: 0;" class="card h-100 card-hover shadow">
+                <div style="overflow: hidden;">
+                  <img style="width: 100%;" class="article-home-card-img" src="http://ascrdi.com/jkkniu-new/wp-content/uploads/Mou_Asam-1200x800.jpg" class="card-img-top" alt="...">
+                </div>
+                <div class="card-body">
+                  <h class="card-title fs-6 fw-bold">নজরুল বিশ্ববিদ্যালয় ও আসাম ডাউন টাউন বিশ্ববিদ্যালয়ের মধ্যে সমঝোতা স্মারক স্বাক্ষরিত</h5>
+                </div>
+                <div class="card-footer bg-white">
+                  <i class="icon-calendar"></i>
+                  August 9, 2022
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="text-center mt-5"><a class="btn btn-outline-success">More News <i class="icon-arrow-circle-o-right"></i></a></div>
+    </div>
+
 
     <div>
     </div>

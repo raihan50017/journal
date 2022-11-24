@@ -33,7 +33,7 @@
                     <input class="fs-6 w-100" type="text" class="form-control" id="keyword" placeholder="Author">
                 </div>
                 <div class="col-md-3 p-1">
-                    <button style="padding:2px 8px ;" class="btn btn-outline-success">Search</button>
+                    <button style="padding:2px 8px; border-radius: 0;" class="btn btn-outline-success">Search</button>
                 </div>
             </div>
         </div>

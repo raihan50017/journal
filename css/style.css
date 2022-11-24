@@ -604,3 +604,6 @@ a:hover {
 .article-home-card-img:hover {
   transform: scale(1.2);
 }
+.card-hover:hover .article-home-card-img {
+  transform: scale(1.2);
+}
