@@ -17,6 +17,7 @@
 </head>
 
 <body>
+  <?php include "shared/topnav.php"; ?>
   <?php include "shared/navbar.php"; ?>
   <!-- body -->
   <div class="container-fluid mt-5 p-0">

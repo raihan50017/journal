@@ -17,14 +17,14 @@
 </head>
 
 <body>
+    <?php include "shared/topnav.php"; ?>
     <?php include "shared/navbar.php"; ?>
-    <?php include "shared/banner.php"; ?>
     <!-- body -->
     <div>
-        <div class="bg-white container-fluid">
+        <div style="min-height: 100vh;" class="bg-white container-fluid">
             <!-- START: JOURNAL -->
             <div class="p-3">
-                <h4 class="fw-bold px-3 py-2 border text-center bg-light">All Journals</h4>
+                <h4 class="fw-bold px-3 py-2 text-left bg-white">All Journals</h4>
                 <div class="row mt-4">
                     <div class="col-md-4">
                         <a style="color: inherit;" href="journal-details.php">
@@ -34,10 +34,10 @@
                                     <div style="width:65%" class="ms-3">
                                         <div class="d-flex h-100 flex-column justify-content-between">
                                             <div>
-                                                <h5 class="fw-bold fs-5">Official journal of the Nazrul University</h5>
-                                                <p class="m-0 p-0">E-ISSN: 123456</p>
-                                                <p class="m-0 p-0">P-ISSN: 123456</p>
-                                                <p class="m-0 p-0">Publiction Frequency: Monthly</p>
+                                                <h5 style="font-size: 16px;" class="fw-bold">Official journal of the Nazrul University</h5>
+                                                <p style="font-size: 14px;" class="m-0 p-0">E-ISSN: 123456</p>
+                                                <p style="font-size: 14px;" class="m-0 p-0">P-ISSN: 123456</p>
+                                                <p style="font-size: 14px;" class="m-0 p-0">Publiction Frequency: Monthly</p>
                                             </div>
                                             <div>
                                                 <hr class="mb-1">
@@ -57,10 +57,10 @@
                                     <div style="width:65%" class="ms-3">
                                         <div class="d-flex h-100 flex-column justify-content-between">
                                             <div>
-                                                <h5 class="fw-bold fs-5">Journal of Governance and Development</h5>
-                                                <p class="m-0 p-0">E-ISSN: 123456</p>
-                                                <p class="m-0 p-0">P-ISSN: 123456</p>
-                                                <p class="m-0 p-0">Publiction Frequency: Monthly</p>
+                                                <h5 style="font-size: 16px;" class="fw-bold">Journal of Governance and Development</h5>
+                                                <p style="font-size: 14px;"  class="m-0 p-0">E-ISSN: 123456</p>
+                                                <p style="font-size: 14px;" class="m-0 p-0">P-ISSN: 123456</p>
+                                                <p style="font-size: 14px;" class="m-0 p-0">Publiction Frequency: Monthly</p>
                                             </div>
                                             <div>
                                                 <hr class="mb-1">
@@ -80,10 +80,10 @@
                                     <div style="width:65%" class="ms-3">
                                         <div class="d-flex h-100 flex-column justify-content-between">
                                             <div>
-                                                <h5 class="fw-bold fs-5">Journal of Governance and Development</h5>
-                                                <p class="m-0 p-0">E-ISSN: 123456</p>
-                                                <p class="m-0 p-0">P-ISSN: 123456</p>
-                                                <p class="m-0 p-0">Publiction Frequency: Monthly</p>
+                                                <h5 style="font-size: 16px;" class="fw-bold">Journal of Governance and Development</h5>
+                                                <p style="font-size: 14px;" class="m-0 p-0">E-ISSN: 123456</p>
+                                                <p style="font-size: 14px;" class="m-0 p-0">P-ISSN: 123456</p>
+                                                <p style="font-size: 14px;" class="m-0 p-0">Publiction Frequency: Monthly</p>
                                             </div>
                                             <div>
                                                 <hr class="mb-1">

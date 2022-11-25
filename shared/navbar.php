@@ -6,15 +6,15 @@
     </div>
     <div class="site-mobile-menu-body"></div>
 </div>
-<header class="site-navbar js-sticky-header site-navbar-target shadow-sm" role="banner">
+<header style="box-shadow: 0 3px 3px 0px rgba(0,0,0,.1);" class="site-navbar js-sticky-header site-navbar-target" role="banner">
     <div class="container-fluid ps-3 pe-3">
         <div class="row align-items-center position-relative">
-            <div class="site-logo">
-                <a href="index.php" class="text-black d-none d-lg-block"><span class="text-primary"> <img alt="" src="images/logo.png"></a>
+            <div class="site-logo m-md-0 p-md-0">
+                <!-- <a href="index.php" class="text-black d-none d-lg-block"><span class="text-primary"> <img alt="" src="images/logo.png"></a> -->
             </div>
             <div class="col-12">
-                <nav class="site-navigation text-end ms-auto " role="navigation">
-                    <ul class="site-menu main-menu js-clone-nav ms-auto d-none d-lg-block">
+                <nav class="site-navigation text-center ms-auto d-none d-lg-block" role="navigation">
+                    <ul class="site-menu main-menu d-flex justify-content-between w-100 js-clone-nav ms-auto p-0">
                         <li><a href="index.php" class="nav-link">Home</a></li>
                         <li><a href="academic_journal.php" class="nav-link">Academic Journal</a></li>
                         <li class="has-children">
@@ -29,7 +29,8 @@
                         </li>
                         <li><a href="blog.php" class="nav-link">Blog</a></li>
                         <li><a href="contact.php" class="nav-link">Contact</a></li>
-                        <li><a href="login.php" class="btn btn-outline-success px-2 py-1">Login/Register</a></li>
+                        <li><a href="blog.php" class="nav-link">About</a></li>
+                        <!-- <li><a href="login.php" class="btn btn-outline-success px-2 py-1">Login/Register</a></li> -->
                     </ul>
                 </nav>
             </div>

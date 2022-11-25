@@ -23,8 +23,18 @@
     <div class="container-fluid p-4">
         <div class="mt-0">
             <div class="row">
+                <div class="col-md-3">
+                    <div class="border shadow bg-light">
+                        <div style="border-top:4px solid brown;"></div>
+                        <a style="text-decoration: none; color:inherit" href="journal-details.php" class="p-2 d-block border-bottom journal-tab-item">Home</a>
+                        <a style="text-decoration: none; color:inherit" href="editorial-board.php" class="p-2 d-block border-bottom journal-tab-item">Editorial Board</a>
+                        <a style="text-decoration: none; color:inherit" href="current-issue.php" class="p-2 d-block border-bottom journal-tab-item">Curent Issue</a>
+                        <a style="text-decoration: none; color:inherit" href="volume-issue.php" class="p-2 d-block border-bottom journal-tab-item">Volume and Issues</a>
+                        <a style="text-decoration: none; color:inherit" href="contact-journal.php" class="p-2 d-block journal-tab-item">Contact the Journal</a>
+                    </div>
+                </div>
                 <div class="col-md-9">
-                    <h3 style="background-color: rgba(0,0,0,.02);" class="fs-4 text-center article-title fw-bold border px-2 py-3">Journal of Governance and Development</h3>
+                    <!-- <h3 style="background-color: rgba(0,0,0,.02);" class="fs-4 text-center article-title fw-bold border px-2 py-3">Journal of Governance and Development</h3> -->
                     <div class="px-2 py-3 border">
                         <div class="row">
                             <div class="col-md-4 text-center">
@@ -51,16 +61,6 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
-                </div>
-                <div class="col-md-3">
-                    <div class="border shadow bg-light">
-                        <div style="border-top:4px solid brown;"></div>
-                        <a style="text-decoration: none; color:inherit" href="journal-details.php" class="p-2 d-block border-bottom journal-tab-item">Home</a>
-                        <a style="text-decoration: none; color:inherit" href="editorial-board.php" class="p-2 d-block border-bottom journal-tab-item">Editorial Board</a>
-                        <a style="text-decoration: none; color:inherit" href="current-issue.php" class="p-2 d-block border-bottom journal-tab-item">Curent Issue</a>
-                        <a style="text-decoration: none; color:inherit" href="volume-issue.php" class="p-2 d-block border-bottom journal-tab-item">Volume and Issues</a>
-                        <a style="text-decoration: none; color:inherit" href="contact-journal.php" class="p-2 d-block journal-tab-item">Contact the Journal</a>
                     </div>
                 </div>
             </div>
