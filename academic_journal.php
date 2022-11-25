@@ -58,7 +58,7 @@
                                         <div class="d-flex h-100 flex-column justify-content-between">
                                             <div>
                                                 <h5 style="font-size: 16px;" class="fw-bold">Journal of Governance and Development</h5>
-                                                <p style="font-size: 14px;"  class="m-0 p-0">E-ISSN: 123456</p>
+                                                <p style="font-size: 14px;" class="m-0 p-0">E-ISSN: 123456</p>
                                                 <p style="font-size: 14px;" class="m-0 p-0">P-ISSN: 123456</p>
                                                 <p style="font-size: 14px;" class="m-0 p-0">Publiction Frequency: Monthly</p>
                                             </div>
@@ -104,6 +104,16 @@
     </div>
     <?php include "shared/footer.php"; ?>
     <!-- body -->
+    <script type="text/javascript">
+        function googleTranslateElementInit() {
+            new google.translate.TranslateElement({
+                pageLanguage: 'en'
+            }, 'google_translate_element');
+        }
+    </script>
+    <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+
     <script src="js/jquery-3.3.1.min.js"></script>
     <!-- <script src="js/popper.min.js"></script>
   <script src="js/bootstrap.min.js"></script> -->
