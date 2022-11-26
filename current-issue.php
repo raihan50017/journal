@@ -17,7 +17,8 @@
 </head>
 
 <body>
-    <?php include "shared/navbar.php"; ?>
+    <?php include "shared/topnav_2.php"; ?>
+    <?php include "shared/navbar_2.php"; ?>
     <?php include "shared/banner.php"; ?>
     <!-- body -->
     <div class="container-fluid p-4">
@@ -36,45 +37,37 @@
                 <div class="col-md-9">
                     <!-- <h3 style="background-color: rgba(0,0,0,.02);" class="fs-4 text-center article-title fw-bold border px-2 py-3">Journal of Governance and Development</h3>
                     <div class="px-2 py-3 border"> -->
-                    <div class="px-2 py-3 border">
-                        <div class="row">
-                            <div class="col-md-4 text-center">
-                                <img class="mb-3" style="width:100%" alt="" src="images/Governance.png">
-                                <h6 class="fw-bold">Editor</h6>
-                                <p style="color: black;">Azizur Rahman</p>
-                                <h6 class="fw-bold">Associate Editor</h6>
-                                <p style="color: black;">Gazi Arafat Uz-Zaman Markony<br>
-                                    Tanjil Ahmed</p>
-                                <h6 class="fw-bold">Member</h6>
-                                <p style="color: black;">Shanjay Kumar Mukharjee<br>
-                                    Md. Nure Alam</p>
-                            </div>
-                            <div class="col-md-8 border-left">
-                                <h5 class="fw-bold text-center">Current Issue</h5>
-                                <div style="background-color: rgba(0,0,0,.03);" class="p-2 border">
-                                    <h6 class="fw-bold text-success">Innovation of Land Administration in Public Service Delivery: An Exploratory Study on Manikganj District</h6>
-                                    <p>Numan Mahfuj, Shakila Akter and Mahabubul Alom</p>
-                                    <a target="_blank" href="images/varsity.pdf" style="color: brown; cursor:pointer">Read</a>/<a target="_blank" href="images/varsity.pdf" style="color: brown;cursor:pointer">Download</a>
-                                </div>
-                                <div class="p-2 border">
-                                    <h6 class="fw-bold text-success">How to write a scientific article</h6>
-                                    <p>Bakibillah, Md. Saiful and Mehedi Ullah</p>
-                                    <a target="_blank" href="images/varsity.pdf" style="color: brown; cursor:pointer">Read</a>/<a target="_blank" href="images/varsity.pdf" style="color: brown;cursor:pointer">Download</a>
-                                </div>
-                                <div style="background-color: rgba(0,0,0,.03);" class="p-2 border">
-                                    <h6 class="fw-bold text-success">How to write a scientific article</h6>
-                                    <p>Bakibillah, Md. Saiful and Mehedi Ullah</p>
-                                    <a target="_blank" href="images/varsity.pdf" style="color: brown; cursor:pointer">Read</a>/<a target="_blank" href="images/varsity.pdf" style="color: brown;cursor:pointer">Download</a>
-                                </div>
-                                <div class="p-2 border">
-                                    <h6 class="fw-bold text-success">How to write a scientific article</h6>
-                                    <p>Bakibillah, Md. Saiful and Mehedi Ullah</p>
-                                    <a target="_blank" href="images/varsity.pdf" style="color: brown; cursor:pointer">Read</a>/<a target="_blank" href="images/varsity.pdf" style="color: brown;cursor:pointer">Download</a>
-                                </div>
-                                <div style="background-color: rgba(0,0,0,.03);" class="p-2 border">
-                                    <h6 class="fw-bold text-success">How to write a scientific article</h6>
-                                    <p>Bakibillah, Md. Saiful and Mehedi Ullah</p>
-                                    <a target="_blank" href="images/varsity.pdf" style="color: brown; cursor:pointer">Read</a>/<a target="_blank" href="images/varsity.pdf" style="color: brown;cursor:pointer">Download</a>
+                    <div class="border">
+                        <div class="p-2">
+                            <h4 class="fw-bold px-0 pb-2 text-center m-0">Current Issue</h4>
+                            <div>
+                                <div class="row row-cols-1 row-cols-md-1 g-4">
+                                    <div class="col">
+                                        <div style="border-radius: 0; border:0px solid red;" class="card h-100 card-hover shadow">
+                                            <div class="card-body">
+                                                <h5 style="color: brown;" class="card-title fs-6 fw-bold"> <a class="article-card-heading" style="color: inherit;" href="">Magnetic mitohormesis: A non-invasive therapy for inflammatory disorders?</a></h5>
+                                                <p style="color: rgba(0,0,0,.8); text-transform:uppercase;font-size: 14px;" class="pt-1 m-0">Azizur Rahman, Gazi Arafat Uz-Zaman Markony, Tanjil Ahmed</p>
+                                                <p style="color: rgba(0,0,0,.8); font-size: 14px;" class="m-0">BIOCELL, Vol.47, No.2, pp. 239-244, 2023, DOI:10.32604/biocell.2023.025357</p>
+                                                <p class="p-0 m-0">Abstract An organism’s survival depends on its ability to adapt to stress. Mitochondria are the cellular integrators of environmental stressors that ultimately translate their responses at the organismal level, and are thus central to the process whereby organisms adapt to their respective environments. Mitochondria produce molecular energy via oxidative phosphorylation that then allows cells to biosynthetically respond and adapt to changes in their environment. Reactive oxygen species (ROS) are by-products of oxidative phosphorylation that can be either beneficial or damaging, depending on the context; ROS are hence both the conveyors of environmental stress as well as cellular “adaptogens”. Mitohormesis refers to <span style="color: brown;"><a style="color:inherit;" href=""> more <i class="icon-arrow-right"></i></a></span></p>
+                                            </div>
+                                            <div class="card-footer bg-white">
+                                                <i class="icon-eye"></i><span> View</span><span style="color: brown;"> 100</span><i class="icon-download ms-3"></i><span> Download</span><span style="color: brown;"> 50</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <div style="border-radius: 0; border:0px solid red;" class="card h-100 card-hover shadow">
+                                            <div class="card-body">
+                                                <h5 style="color: brown;" class="card-title fs-6 fw-bold"> <a class="article-card-heading" style="color: inherit;" href="">Magnetic mitohormesis: A non-invasive therapy for inflammatory disorders?</a></h5>
+                                                <p style="color: rgba(0,0,0,.8); text-transform:uppercase;font-size: 14px;" class="pt-1 m-0">Azizur Rahman, Gazi Arafat Uz-Zaman Markony, Tanjil Ahmed</p>
+                                                <p style="color: rgba(0,0,0,.8); font-size: 14px;" class="m-0">BIOCELL, Vol.47, No.2, pp. 239-244, 2023, DOI:10.32604/biocell.2023.025357</p>
+                                                <p class="p-0 m-0">Abstract An organism’s survival depends on its ability to adapt to stress. Mitochondria are the cellular integrators of environmental stressors that ultimately translate their responses at the organismal level, and are thus central to the process whereby organisms adapt to their respective environments. Mitochondria produce molecular energy via oxidative phosphorylation that then allows cells to biosynthetically respond and adapt to changes in their environment. Reactive oxygen species (ROS) are by-products of oxidative phosphorylation that can be either beneficial or damaging, depending on the context; ROS are hence both the conveyors of environmental stress as well as cellular “adaptogens”. Mitohormesis refers to <span style="color: brown;"><a style="color:inherit;" href=""> more <i class="icon-arrow-right"></i></a></span></p>
+                                            </div>
+                                            <div class="card-footer bg-white">
+                                                <i class="icon-eye"></i><span> View</span><span style="color: brown;"> 100</span><i class="icon-download ms-3"></i><span> Download</span><span style="color: brown;"> 50</span>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>

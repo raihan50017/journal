@@ -6,7 +6,7 @@
     </div>
     <div class="site-mobile-menu-body"></div>
 </div>
-<header style="box-shadow: 0 5px 5px 0px rgba(0,0,0,.3);background-color:#EF949A;" class="site-navbar js-sticky-header site-navbar-target text-white" role="banner">
+<header style="box-shadow: 0 5px 5px 0px rgba(0,0,0,.3);background-color:white;" class="site-navbar js-sticky-header site-navbar-target text-white" role="banner">
     <div class="container-fluid ps-3 pe-3">
         <div class="row align-items-center position-relative">
             <div class="site-logo m-md-0 p-md-0">

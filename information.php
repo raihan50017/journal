@@ -17,7 +17,8 @@
 </head>
 
 <body>
-    <?php include "shared/navbar.php"; ?>
+    <?php include "shared/topnav_2.php"; ?>
+    <?php include "shared/navbar_2.php"; ?>
     <?php include "shared/banner.php"; ?>
     <!-- body -->
     <div class="container-fluid p-4">

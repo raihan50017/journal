@@ -20,7 +20,7 @@
   <?php include "shared/topnav.php"; ?>
   <?php include "shared/navbar.php"; ?>
   <!-- body -->
-  <div class="container-fluid mt-5 p-0">
+  <div class="container-fluid p-0">
     <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
       <div class="carousel-inner">
         <div style="background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(' http://ascrdi.com/jkkniu-new/wp-content/uploads/building-1-1.jpg');background-size:cover; background-position:center center;background-repeat:no-repeat;" class="carousel-item active text-center text-white p-2">
@@ -67,7 +67,7 @@
     <div class="bg-light p-4">
       <h4 class="fw-bold px-0 py-2 text-left bg-light">Featured</h4>
       <div>
-        <div class="row row-cols-1 row-cols-md-4 g-4">
+        <div class="row row-cols-1 row-cols-md-3 g-4">
           <div class="col">
             <a class="h-100" style="color:inherit;" href="">
               <div style="border-radius: 0;" class="card h-100 card-hover shadow">
@@ -147,7 +147,7 @@
     <div style="background-color: #FFFFCC;" class="p-4 mt-4">
       <h4 class="fw-bold px-0 py-2 text-center">Latest News</h4>
       <div>
-        <div class="row row-cols-1 row-cols-md-4 g-4">
+        <div class="row row-cols-1 row-cols-md-3 g-4">
           <div class="col">
             <a class="h-100" style="color:inherit;" href="">
               <div style="border-radius: 0;" class="card h-100 card-hover shadow">

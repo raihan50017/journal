@@ -17,7 +17,8 @@
 </head>
 
 <body>
-    <?php include "shared/navbar.php"; ?>
+    <?php include "shared/topnav_2.php"; ?>
+    <?php include "shared/navbar_2.php"; ?>
     <?php include "shared/banner.php"; ?>
     <!-- body -->
     <div class="container-fluid p-4">
@@ -37,7 +38,7 @@
                     <!-- <h3 style="background-color: rgba(0,0,0,.02);" class="fs-4 text-center article-title fw-bold border px-2 py-3">Journal of Governance and Development</h3> -->
                     <div class="px-2 py-3 border">
                         <div class="row">
-                            <div class="col-md-4 text-center">
+                            <div class="col-md-3 text-center">
                                 <img class="mb-3" style="width:100%" alt="" src="images/Governance.png">
                                 <h6 class="fw-bold">Editor</h6>
                                 <p style="color: black;">Azizur Rahman</p>
@@ -48,7 +49,7 @@
                                 <p style="color: black;">Shanjay Kumar Mukharjee<br>
                                     Md. Nure Alam</p>
                             </div>
-                            <div class="col-md-8 border-left">
+                            <div class="col-md-9 border-left">
                                 <h5 class="fw-bold text-center">Contact Journal</h5>
                                 <div style="background-color: rgba(0,0,0,.03);" class="p-2 border">
                                     <h6 class="fw-bold">Editor</h6>
