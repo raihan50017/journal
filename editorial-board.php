@@ -21,11 +21,19 @@
     <?php include "shared/navbar_2.php"; ?>
     <?php include "shared/banner.php"; ?>
     <!-- body -->
-    <div class="container-fluid p-4">
+    <div class="container-fluid p-4 bg-light">
         <div class="mt-0">
             <div class="row">
                 <div class="col-md-3">
-                    <div class="border shadow bg-light">
+                    <div class="bg-white shadow p-3 mb-3">
+                        <!-- <h5 class="text-start">jkkniu Official Journal</h5> -->
+                        <a style="background-color: #001C54;color:white; border:1px solid #001C54;" href="" class="btn btn-outline-success w-100 p-1 submit-to-btn">Submit to JOF</a>
+                        <a href="" class="btn btn-success w-100 mt-2 p-1">Review for JOF</a>
+                        <div class="mt-2 d-flex justify-content-between">
+                            <a class="btn btn-outline-success py-1 px-2"><i class="icon-twitter"></i></a><a class="btn btn-outline-success py-1 ms-1"><i class="icon-facebook"></i></a><a class="btn btn-outline-success py-1 ms-1 w-100">Share</i></a>
+                        </div>
+                    </div>
+                    <div class="border shadow bg-white">
                         <div style="border-top:4px solid brown;"></div>
                         <a style="text-decoration: none; color:inherit" href="journal-details.php" class="p-2 d-block border-bottom journal-tab-item">Home</a>
                         <a style="text-decoration: none; color:inherit" href="editorial-board.php" class="p-2 d-block border-bottom journal-tab-item">Editorial Board</a>
@@ -35,7 +43,7 @@
                     </div>
                 </div>
                 <div class="col-md-9">
-                    <div class="px-2 py-3 border">
+                    <div class="px-2 py-3 shadow bg-white">
                         <div class="row">
                             <div class="col-md-3 text-center">
                                 <img class="mb-3" style="width:100%" alt="" src="images/Governance.png">

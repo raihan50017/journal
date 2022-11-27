@@ -1,49 +1,49 @@
 <?php
-include("./shared/connection.php");
-if ($conn) {
-}
-$email = $password = $confirm_password = "";
-$email_error = $password_error = "";
-$toast = false;
-if (isset($_POST["submit"])) {
-    $email  = $_POST["email"];
-    $password = $_POST["password"];
+// include("./shared/connection.php");
+// if ($conn) {
+// }
+// $email = $password = $confirm_password = "";
+// $email_error = $password_error = "";
+// $toast = false;
+// if (isset($_POST["submit"])) {
+//     $email  = $_POST["email"];
+//     $password = $_POST["password"];
 
-    if (empty($email)) {
-        $email_error = "Email required";
-    }
-    if (empty($password)) {
-        $password_error = "Password is required";
-    }
+//     if (empty($email)) {
+//         $email_error = "Email required";
+//     }
+//     if (empty($password)) {
+//         $password_error = "Password is required";
+//     }
 
-    if (!empty($password) && !empty($email)) {
-        $sql = "SELECT * FROM users WHERE email = '$email'";
-        $result = mysqli_query($conn, $sql);
-        if (mysqli_num_rows($result) <= 0) {
-            $email_error = "This email not registered";
-        } else {
-            $row = mysqli_fetch_assoc($result);
-            if (password_verify($password, $row["password"])) {
-                $email = "";
-                $password = "";
-                header("location:dashboard/index.php");
-            } else {
-                $password_error = "Password incorrect";
-            }
-        }
-    }
+//     if (!empty($password) && !empty($email)) {
+//         $sql = "SELECT * FROM users WHERE email = '$email'";
+//         $result = mysqli_query($conn, $sql);
+//         if (mysqli_num_rows($result) <= 0) {
+//             $email_error = "This email not registered";
+//         } else {
+//             $row = mysqli_fetch_assoc($result);
+//             if (password_verify($password, $row["password"])) {
+//                 $email = "";
+//                 $password = "";
+//                 header("location:dashboard/index.php");
+//             } else {
+//                 $password_error = "Password incorrect";
+//             }
+//         }
+//     }
 
-    $sql = "SELECT * FROM users WHERE email = '$email'";
-}
+//     $sql = "SELECT * FROM users WHERE email = '$email'";
+// }
 
 
-function test_input($data)
-{
-    $data = trim($data);
-    $data = stripslashes($data);
-    $data = htmlspecialchars($data);
-    return $data;
-}
+// function test_input($data)
+// {
+//     $data = trim($data);
+//     $data = stripslashes($data);
+//     $data = htmlspecialchars($data);
+//     return $data;
+// }
 
 ?>
 
@@ -100,13 +100,13 @@ function test_input($data)
                         <form method="post" action="<?php $_SERVER['PHP_SELF'] ?>">
                             <div class="mb-3 text-start">
                                 <label for="email" class="form-label">Email address</label>
-                                <input name="email" value="<?php echo $email ?>" type="email" class="form-control" id="email" aria-describedby="emailHelp">
-                                <div class="text-danger"><?php echo $email_error ?></div>
+                                <input name="email" type="email" class="form-control" id="email" aria-describedby="emailHelp">
+                                <div class="text-danger"></div>
                             </div>
                             <div class="mb-3 text-start">
                                 <label for="password" class="form-label">Password</label>
-                                <input name="password" value="<?php echo $password ?>" type="password" class="form-control" id="passeword">
-                                <div class="text-danger"><?php echo $password_error ?></div>
+                                <input name="password"  type="password" class="form-control" id="passeword">
+                                <div class="text-danger"></div>
                             </div>
                             <button name="submit" type="submit" class="btn btn-outline-warning">Submit</button>
                         </form>
@@ -124,4 +124,5 @@ function test_input($data)
     <script src="js/jquery.sticky.js"></script>
     <script src="js/main.js"></script>
 </body>
+
 </html>

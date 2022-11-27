@@ -21,11 +21,19 @@
     <?php include "shared/navbar_2.php"; ?>
     <?php include "shared/banner.php"; ?>
     <!-- body -->
-    <div class="container-fluid p-4">
+    <div class="container-fluid bg-light p-4">
         <div class="mt-0">
             <div class="row">
                 <div class="col-md-3">
-                    <div class="border shadow bg-light">
+                    <div class="bg-white shadow p-3 mb-3">
+                        <!-- <h5 class="text-start">jkkniu Official Journal</h5> -->
+                        <a style="background-color: #001C54;color:white; border:1px solid #001C54;" href="" class="btn btn-outline-success w-100 p-1 submit-to-btn">Submit to JOF</a>
+                        <a href="" class="btn btn-success w-100 mt-2 p-1">Review for JOF</a>
+                        <div class="mt-2 d-flex justify-content-between">
+                            <a class="btn btn-outline-success py-1 px-2"><i class="icon-twitter"></i></a><a class="btn btn-outline-success py-1 ms-1"><i class="icon-facebook"></i></a><a class="btn btn-outline-success py-1 ms-1 w-100">Share</i></a>
+                        </div>
+                    </div>
+                    <div class="border shadow bg-white">
                         <div style="border-top:4px solid brown;"></div>
                         <a style="text-decoration: none; color:inherit" href="journal-details.php" class="p-2 d-block border-bottom journal-tab-item">Home</a>
                         <a style="text-decoration: none; color:inherit" href="editorial-board.php" class="p-2 d-block border-bottom journal-tab-item">Editorial Board</a>
@@ -36,7 +44,7 @@
                 </div>
                 <div class="col-md-9">
                     <!-- <h3 style="background-color: rgba(0,0,0,.02);" class="fs-4 text-center article-title fw-bold border px-2 py-3">Journal of Governance and Development</h3> -->
-                    <div class="px-2 py-3 border">
+                    <div class="px-2 py-3 bg-white shadow">
                         <div class="row">
                             <div class="col-md-3 text-center">
                                 <img class="mb-3" style="width:100%" alt="" src="images/Governance.png">
@@ -51,7 +59,7 @@
                             </div>
                             <div class="col-md-9 border-left">
                                 <h5 class="fw-bold text-center">Volume Issue</h5>
-                                <div style="background-color: rgba(0,0,0,.03);" class="p-2 shadow">
+                                <div style="background-color: rgba(0,0,0,.03);" class="p-2">
                                     <h6 class="fw-bold">Journal of Governance and Development</h6>
                                     <p class="fw-bold fs-6">Volume:1 Issue:1</p>
                                     <button class="btn btn-outline-success">View Details</button>

@@ -122,7 +122,7 @@
               </div>
             </a>
           </div>
-          <div class="col">
+          <!-- <div class="col">
             <a class="h-100" style="color:inherit;" href="">
               <div style="border-radius: 0;" class="card h-100 card-hover shadow">
                 <div style="overflow: hidden;">
@@ -136,176 +136,176 @@
                 </div>
                 <div style="border-top: 1px solid white;" class="card-footer bg-white">
                   <a style="color: brown;font-size:14px;" href="">Read more --></a>
-                </div>
-              </div>
-            </a>
-          </div>
         </div>
       </div>
-    </div>
+      </a>
+    </div> -->
+  </div>
+  </div>
+  </div>
 
-    <div style="background-color: #FFFFCC;" class="p-4 mt-4">
-      <h4 class="fw-bold px-0 py-2 text-center">Latest News</h4>
-      <div>
-        <div class="row row-cols-1 row-cols-md-4 g-4">
-          <div class="col">
-            <a class="h-100" style="color:inherit;" href="">
-              <div style="border-radius: 0;" class="card h-100 card-hover shadow">
-                <div style="overflow: hidden;">
-                  <img style="width: 100%;" class="article-home-card-img" src="http://ascrdi.com/jkkniu-new/wp-content/uploads/Mou_Asam-1200x800.jpg" class="card-img-top" alt="...">
-                </div>
-                <div class="card-body">
-                  <h class="card-title fs-6 fw-bold">নজরুল বিশ্ববিদ্যালয় ও আসাম ডাউন টাউন বিশ্ববিদ্যালয়ের মধ্যে সমঝোতা স্মারক স্বাক্ষরিত</h5>
-                </div>
-                <div class="card-footer bg-white">
-                  <i class="icon-calendar"></i>
-                  August 9, 2022
-                </div>
-              </div>
-            </a>
-          </div>
-          <div class="col">
-            <a class="h-100" style="color:inherit;" href="">
-              <div style="border-radius: 0;" class="card h-100 card-hover shadow">
-                <div style="overflow: hidden;">
-                  <img style="width: 100%;" class="article-home-card-img" src="http://ascrdi.com/jkkniu-new/wp-content/uploads/Mou_Asam-1200x800.jpg" class="card-img-top" alt="...">
-                </div>
-                <div class="card-body">
-                  <h class="card-title fs-6 fw-bold">নজরুল বিশ্ববিদ্যালয় ও আসাম ডাউন টাউন বিশ্ববিদ্যালয়ের মধ্যে সমঝোতা স্মারক স্বাক্ষরিত</h5>
-                </div>
-                <div class="card-footer bg-white">
-                  <i class="icon-calendar"></i>
-                  August 9, 2022
-                </div>
-              </div>
-            </a>
-          </div>
-          <div class="col">
-            <a class="h-100" style="color:inherit;" href="">
-              <div style="border-radius: 0;" class="card h-100 card-hover shadow">
-                <div style="overflow: hidden;">
-                  <img style="width: 100%;" class="article-home-card-img" src="http://ascrdi.com/jkkniu-new/wp-content/uploads/Mou_Asam-1200x800.jpg" class="card-img-top" alt="...">
-                </div>
-                <div class="card-body">
-                  <h class="card-title fs-6 fw-bold">নজরুল বিশ্ববিদ্যালয় ও আসাম ডাউন টাউন বিশ্ববিদ্যালয়ের মধ্যে সমঝোতা স্মারক স্বাক্ষরিত</h5>
-                </div>
-                <div class="card-footer bg-white">
-                  <i class="icon-calendar"></i>
-                  August 9, 2022
-                </div>
-              </div>
-            </a>
-          </div>
-          <div class="col">
-            <a class="h-100" style="color:inherit;" href="">
-              <div style="border-radius: 0;" class="card h-100 card-hover shadow">
-                <div style="overflow: hidden;">
-                  <img style="width: 100%;" class="article-home-card-img" src="http://ascrdi.com/jkkniu-new/wp-content/uploads/Mou_Asam-1200x800.jpg" class="card-img-top" alt="...">
-                </div>
-                <div class="card-body">
-                  <h class="card-title fs-6 fw-bold">নজরুল বিশ্ববিদ্যালয় ও আসাম ডাউন টাউন বিশ্ববিদ্যালয়ের মধ্যে সমঝোতা স্মারক স্বাক্ষরিত</h5>
-                </div>
-                <div class="card-footer bg-white">
-                  <i class="icon-calendar"></i>
-                  August 9, 2022
-                </div>
-              </div>
-            </a>
-          </div>
-        </div>
-      </div>
-      <div class="text-center mt-5"><a class="btn btn-outline-success">More News <i class="icon-arrow-circle-o-right"></i></a></div>
-    </div>
-
-
-    <div style="background-color: white;" class="p-4 mt-4">
-      <h4 class="fw-bold px-0 py-2 text-center">Upcoming Events</h4>
-      <div>
-        <div class="row row-cols-1 row-cols-md-4 g-4">
-          <div class="col">
-            <a class="h-100" style="color:inherit;" href="">
-              <div style="border-radius: 0;" class="card h-100 card-hover shadow">
-                <div style="overflow: hidden;">
-                  <img style="width: 100%;height:200px;" class="article-home-card-img" src="http://ascrdi.com/jkkniu-new/wp-content/uploads/289775055_5420685981345245_7023250117381977647_n.jpg" class="card-img-top" alt="...">
-                </div>
-                <div class="card-body">
-                  <h class="card-title fs-6 fw-bold">বাংলাদেশের মর্যাদা ও গর্বের পদ্মা সেতু উদ্বোধন উপলক্ষে আলোচনা সভা</h5>
-                </div>
-                <div class="card-footer bg-white">
-                  <div class="d-flex justify-content-between align-items-center">
-                    <div style="background-color: white;font-size: 14px;" class="fw-bold text-center border rounded p-1">
-                      August<br>9</div>
-                    <div><i class="icon-clock-o"></i> 9.30AM to 4.30PM</div>
-                  </div>
-                </div>
-              </div>
-            </a>
-          </div>
-          <div class="col">
-            <a class="h-100" style="color:inherit;" href="">
-              <div style="border-radius: 0;" class="card h-100 card-hover shadow">
-                <div style="overflow: hidden;">
-                  <img style="width: 100%;height:200px;" class="article-home-card-img" src="http://ascrdi.com/jkkniu-new/wp-content/uploads/289775055_5420685981345245_7023250117381977647_n.jpg" class="card-img-top" alt="...">
-                </div>
-                <div class="card-body">
-                  <h class="card-title fs-6 fw-bold">বাংলাদেশের মর্যাদা ও গর্বের পদ্মা সেতু উদ্বোধন উপলক্ষে আলোচনা সভা</h5>
-                </div>
-                <div class="card-footer bg-white">
-                  <div class="d-flex justify-content-between align-items-center">
-                    <div style="background-color: white;font-size: 14px;" class="fw-bold text-center border rounded p-1">
-                      August<br>9</div>
-                    <div><i class="icon-clock-o"></i> 9.30AM to 4.30PM</div>
-                  </div>
-                </div>
-              </div>
-            </a>
-          </div>
-          <div class="col">
-            <a class="h-100" style="color:inherit;" href="">
-              <div style="border-radius: 0;" class="card h-100 card-hover shadow">
-                <div style="overflow: hidden;">
-                  <img style="width: 100%;height:200px;" class="article-home-card-img" src="http://ascrdi.com/jkkniu-new/wp-content/uploads/289775055_5420685981345245_7023250117381977647_n.jpg" class="card-img-top" alt="...">
-                </div>
-                <div class="card-body">
-                  <h class="card-title fs-6 fw-bold">বাংলাদেশের মর্যাদা ও গর্বের পদ্মা সেতু উদ্বোধন উপলক্ষে আলোচনা সভা</h5>
-                </div>
-                <div class="card-footer bg-white">
-                  <div class="d-flex justify-content-between align-items-center">
-                    <div style="background-color: white;font-size: 14px;" class="fw-bold text-center border rounded p-1">
-                      August<br>9</div>
-                    <div><i class="icon-clock-o"></i> 9.30AM to 4.30PM</div>
-                  </div>
-                </div>
-              </div>
-            </a>
-          </div>
-          <div class="col">
-            <a class="h-100" style="color:inherit;" href="">
-              <div style="border-radius: 0;" class="card h-100 card-hover shadow">
-                <div style="overflow: hidden;">
-                  <img style="width: 100%;height:200px;" class="article-home-card-img" src="http://ascrdi.com/jkkniu-new/wp-content/uploads/289775055_5420685981345245_7023250117381977647_n.jpg" class="card-img-top" alt="...">
-                </div>
-                <div class="card-body">
-                  <h class="card-title fs-6 fw-bold">বাংলাদেশের মর্যাদা ও গর্বের পদ্মা সেতু উদ্বোধন উপলক্ষে আলোচনা সভা</h5>
-                </div>
-                <div class="card-footer bg-white">
-                  <div class="d-flex justify-content-between align-items-center">
-                    <div style="background-color: white;font-size: 14px;" class="fw-bold text-center border rounded p-1">
-                      August<br>9</div>
-                    <div><i class="icon-clock-o"></i> 9.30AM to 4.30PM</div>
-                  </div>
-                </div>
-              </div>
-            </a>
-          </div>
-        </div>
-      </div>
-      <div class="text-center mt-5"><a class="btn btn-outline-success">More Events <i class="icon-arrow-circle-o-right"></i></a></div>
-    </div>
-
-
+  <div style="background-color: #FFFFCC;" class="p-4 mt-4">
+    <h4 class="fw-bold px-0 py-2 text-center">Latest News</h4>
     <div>
+      <div class="row row-cols-1 row-cols-md-4 g-4">
+        <div class="col">
+          <a class="h-100" style="color:inherit;" href="">
+            <div style="border-radius: 0;" class="card h-100 card-hover shadow">
+              <div style="overflow: hidden;">
+                <img style="width: 100%;" class="article-home-card-img" src="http://ascrdi.com/jkkniu-new/wp-content/uploads/Mou_Asam-1200x800.jpg" class="card-img-top" alt="...">
+              </div>
+              <div class="card-body">
+                <h class="card-title fs-6 fw-bold">নজরুল বিশ্ববিদ্যালয় ও আসাম ডাউন টাউন বিশ্ববিদ্যালয়ের মধ্যে সমঝোতা স্মারক স্বাক্ষরিত</h5>
+              </div>
+              <div class="card-footer bg-white">
+                <i class="icon-calendar"></i>
+                August 9, 2022
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="col">
+          <a class="h-100" style="color:inherit;" href="">
+            <div style="border-radius: 0;" class="card h-100 card-hover shadow">
+              <div style="overflow: hidden;">
+                <img style="width: 100%;" class="article-home-card-img" src="http://ascrdi.com/jkkniu-new/wp-content/uploads/Mou_Asam-1200x800.jpg" class="card-img-top" alt="...">
+              </div>
+              <div class="card-body">
+                <h class="card-title fs-6 fw-bold">নজরুল বিশ্ববিদ্যালয় ও আসাম ডাউন টাউন বিশ্ববিদ্যালয়ের মধ্যে সমঝোতা স্মারক স্বাক্ষরিত</h5>
+              </div>
+              <div class="card-footer bg-white">
+                <i class="icon-calendar"></i>
+                August 9, 2022
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="col">
+          <a class="h-100" style="color:inherit;" href="">
+            <div style="border-radius: 0;" class="card h-100 card-hover shadow">
+              <div style="overflow: hidden;">
+                <img style="width: 100%;" class="article-home-card-img" src="http://ascrdi.com/jkkniu-new/wp-content/uploads/Mou_Asam-1200x800.jpg" class="card-img-top" alt="...">
+              </div>
+              <div class="card-body">
+                <h class="card-title fs-6 fw-bold">নজরুল বিশ্ববিদ্যালয় ও আসাম ডাউন টাউন বিশ্ববিদ্যালয়ের মধ্যে সমঝোতা স্মারক স্বাক্ষরিত</h5>
+              </div>
+              <div class="card-footer bg-white">
+                <i class="icon-calendar"></i>
+                August 9, 2022
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="col">
+          <a class="h-100" style="color:inherit;" href="">
+            <div style="border-radius: 0;" class="card h-100 card-hover shadow">
+              <div style="overflow: hidden;">
+                <img style="width: 100%;" class="article-home-card-img" src="http://ascrdi.com/jkkniu-new/wp-content/uploads/Mou_Asam-1200x800.jpg" class="card-img-top" alt="...">
+              </div>
+              <div class="card-body">
+                <h class="card-title fs-6 fw-bold">নজরুল বিশ্ববিদ্যালয় ও আসাম ডাউন টাউন বিশ্ববিদ্যালয়ের মধ্যে সমঝোতা স্মারক স্বাক্ষরিত</h5>
+              </div>
+              <div class="card-footer bg-white">
+                <i class="icon-calendar"></i>
+                August 9, 2022
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
     </div>
+    <div class="text-center mt-5"><a class="btn btn-outline-success">More News <i class="icon-arrow-circle-o-right"></i></a></div>
+  </div>
+
+
+  <div style="background-color: white;" class="p-4 mt-4">
+    <h4 class="fw-bold px-0 py-2 text-center">Upcoming Events</h4>
+    <div>
+      <div class="row row-cols-1 row-cols-md-4 g-4">
+        <div class="col">
+          <a class="h-100" style="color:inherit;" href="">
+            <div style="border-radius: 0;" class="card h-100 card-hover shadow">
+              <div style="overflow: hidden;">
+                <img style="width: 100%;height:200px;" class="article-home-card-img" src="http://ascrdi.com/jkkniu-new/wp-content/uploads/289775055_5420685981345245_7023250117381977647_n.jpg" class="card-img-top" alt="...">
+              </div>
+              <div class="card-body">
+                <h class="card-title fs-6 fw-bold">বাংলাদেশের মর্যাদা ও গর্বের পদ্মা সেতু উদ্বোধন উপলক্ষে আলোচনা সভা</h5>
+              </div>
+              <div class="card-footer bg-white">
+                <div class="d-flex justify-content-between align-items-center">
+                  <div style="background-color: white;font-size: 14px;" class="fw-bold text-center border rounded p-1">
+                    August<br>9</div>
+                  <div><i class="icon-clock-o"></i> 9.30AM to 4.30PM</div>
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="col">
+          <a class="h-100" style="color:inherit;" href="">
+            <div style="border-radius: 0;" class="card h-100 card-hover shadow">
+              <div style="overflow: hidden;">
+                <img style="width: 100%;height:200px;" class="article-home-card-img" src="http://ascrdi.com/jkkniu-new/wp-content/uploads/289775055_5420685981345245_7023250117381977647_n.jpg" class="card-img-top" alt="...">
+              </div>
+              <div class="card-body">
+                <h class="card-title fs-6 fw-bold">বাংলাদেশের মর্যাদা ও গর্বের পদ্মা সেতু উদ্বোধন উপলক্ষে আলোচনা সভা</h5>
+              </div>
+              <div class="card-footer bg-white">
+                <div class="d-flex justify-content-between align-items-center">
+                  <div style="background-color: white;font-size: 14px;" class="fw-bold text-center border rounded p-1">
+                    August<br>9</div>
+                  <div><i class="icon-clock-o"></i> 9.30AM to 4.30PM</div>
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="col">
+          <a class="h-100" style="color:inherit;" href="">
+            <div style="border-radius: 0;" class="card h-100 card-hover shadow">
+              <div style="overflow: hidden;">
+                <img style="width: 100%;height:200px;" class="article-home-card-img" src="http://ascrdi.com/jkkniu-new/wp-content/uploads/289775055_5420685981345245_7023250117381977647_n.jpg" class="card-img-top" alt="...">
+              </div>
+              <div class="card-body">
+                <h class="card-title fs-6 fw-bold">বাংলাদেশের মর্যাদা ও গর্বের পদ্মা সেতু উদ্বোধন উপলক্ষে আলোচনা সভা</h5>
+              </div>
+              <div class="card-footer bg-white">
+                <div class="d-flex justify-content-between align-items-center">
+                  <div style="background-color: white;font-size: 14px;" class="fw-bold text-center border rounded p-1">
+                    August<br>9</div>
+                  <div><i class="icon-clock-o"></i> 9.30AM to 4.30PM</div>
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="col">
+          <a class="h-100" style="color:inherit;" href="">
+            <div style="border-radius: 0;" class="card h-100 card-hover shadow">
+              <div style="overflow: hidden;">
+                <img style="width: 100%;height:200px;" class="article-home-card-img" src="http://ascrdi.com/jkkniu-new/wp-content/uploads/289775055_5420685981345245_7023250117381977647_n.jpg" class="card-img-top" alt="...">
+              </div>
+              <div class="card-body">
+                <h class="card-title fs-6 fw-bold">বাংলাদেশের মর্যাদা ও গর্বের পদ্মা সেতু উদ্বোধন উপলক্ষে আলোচনা সভা</h5>
+              </div>
+              <div class="card-footer bg-white">
+                <div class="d-flex justify-content-between align-items-center">
+                  <div style="background-color: white;font-size: 14px;" class="fw-bold text-center border rounded p-1">
+                    August<br>9</div>
+                  <div><i class="icon-clock-o"></i> 9.30AM to 4.30PM</div>
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="text-center mt-5"><a class="btn btn-outline-success">More Events <i class="icon-arrow-circle-o-right"></i></a></div>
+  </div>
+
+
+  <div>
+  </div>
   </div>
   </div>
   <?php include "shared/footer.php"; ?>

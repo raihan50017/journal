@@ -527,8 +527,9 @@ a:hover {
 /* Home page */
 
 .home-banner {
-  background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("../images/jkkniu_arts_building.jpg");
+  /* background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../images/jkkniu_arts_building.jpg"); */
+  background-color: #001c54;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -537,14 +538,14 @@ a:hover {
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
-  padding-top: 70px;
-  padding-bottom: 50px;
-  padding-left: 40px;
-  padding-right: 40px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
 }
 
 .home-banner h2 {
-  font-weight: 600;
+  font-weight: 400;
   font-size: 24px;
   line-height: 1.2;
   letter-spacing: 0;

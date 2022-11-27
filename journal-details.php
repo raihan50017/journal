@@ -21,11 +21,19 @@
     <?php include "shared/navbar_2.php"; ?>
     <?php include "shared/banner.php"; ?>
     <!-- body -->
-    <div class="container-fluid p-4">
+    <div class="container-fluid p-4 bg-light">
         <div class="mt-0">
             <div class="row">
                 <div class="col-md-3">
-                    <div class="border shadow bg-light">
+                    <div class="bg-white shadow p-3 mb-3">
+                        <!-- <h5 class="text-start">jkkniu Official Journal</h5> -->
+                        <a style="background-color: #001C54;color:white; border:1px solid #001C54;" href="" class="btn btn-outline-success w-100 p-1 submit-to-btn">Submit to JOF</a>
+                        <a href="" class="btn btn-success w-100 mt-2 p-1">Review for JOF</a>
+                        <div class="mt-2 d-flex justify-content-between">
+                            <a class="btn btn-outline-success py-1 px-2"><i class="icon-twitter"></i></a><a class="btn btn-outline-success py-1 ms-1"><i class="icon-facebook"></i></a><a class="btn btn-outline-success py-1 ms-1 w-100">Share</i></a>
+                        </div>
+                    </div>
+                    <div class="border shadow bg-white">
                         <div style="border-top:4px solid brown;"></div>
                         <a style="text-decoration: none; color:inherit" href="journal-details.php" class="p-2 d-block border-bottom journal-tab-item">Home</a>
                         <a style="text-decoration: none; color:inherit" href="editorial-board.php" class="p-2 d-block border-bottom journal-tab-item">Editorial Board</a>
@@ -36,7 +44,7 @@
                 </div>
                 <div class="col-md-9">
                     <!-- <h3 style="background-color: rgba(0,0,0,.02);" class="fs-4 article-title fw-bold border px-2 py-3 text-center">Journal of Governance and Development</h3> -->
-                    <div class="px-2 py-3 border">
+                    <div class="px-2 py-3 bg-white shadow">
                         <div class="row">
                             <div class="col-md-3 text-center">
                                 <div>
@@ -67,18 +75,19 @@
                     </div>
 
                     <div>
-                        <div style="background-color: #FFFFCC;" class="p-4 mt-4">
+                        <div class="pt-4 mt-4 bg-light">
                             <h4 class="fw-bold px-0 py-2 text-center">Articles</h4>
                             <div>
                                 <div class="row row-cols-1 row-cols-md-1 g-4">
                                     <div class="col">
                                         <div style="border-radius: 0; border:0px solid red;" class="card h-100 card-hover shadow">
                                             <div class="card-body">
-                                                <h5 style="color: brown;" class="card-title fs-6 fw-bold"> <a class="article-card-heading" style="color: inherit;" href="">Magnetic mitohormesis: A non-invasive therapy for inflammatory disorders?</a></h5>
+                                                <span style="background-color: #001c54; color:white; font-size:12px;padding:2px;" class="fw-700">Open Access</span><span style="background-color: brown; color:white; font-size:12px;padding:2px;" class="fw-700 ms-1">Article</span>
+                                                <h5 style="color: brown;" class="card-title fs-6 fw-bold mt-2"> <a class="article-card-heading" style="color: inherit;" href="">Magnetic mitohormesis: A non-invasive therapy for inflammatory disorders?</a></h5>
                                                 <p style="color: rgba(0,0,0,.8); text-transform:uppercase;font-size: 14px;" class="pt-1 m-0">Azizur Rahman, Gazi Arafat Uz-Zaman Markony, Tanjil Ahmed</p>
                                                 <p style="color: rgba(0,0,0,.8); font-size: 14px;" class="m-0">BIOCELL, Vol.47, No.2, pp. 239-244, 2023, DOI:10.32604/biocell.2023.025357</p>
-                                                <p class="p-0 m-0"><a href="">Abstract</a> An organism’s survival depends on its ability to adapt to stress. Mitochondria are the cellular integrators of environmental stressors that ultimately translate their responses at the organismal level, and are thus central to the process whereby organisms adapt to their respective environments. Mitochondria produce molecular energy via oxidative phosphorylation that then allows cells to biosynthetically respond and adapt to changes in their environment. Reactive oxygen species (ROS) are by-products of oxidative phosphorylation that can be either beneficial or damaging, depending on the context; ROS are hence both the conveyors of environmental stress as well as cellular “adaptogens”. Mitohormesis refers to <span style="color: brown;"><a style="color:inherit;" href=""> more <i class="icon-arrow-right"></i></a></span></p>
-                                                <img class="mt-2" style="height: auto; width:50%;" alt="" src="https://file.techscience.com/uploads/imgs/202211/6abebd95d75894d3313b6f290a208fd2.png/origin?t=20220620">
+                                                <p class="p-0 m-0"><a href="">Abstract</a> An organism’s survival depends on its ability to adapt to stress. Mitochondria are the cellular integrators of environmental stressors that ultimately translate their responses at the organismal level, and are thus central to the process whereby organisms adapt to their respective environments. Mitochondria produce molecular energy via oxidative <span style="color: brown;"><a style="color:inherit;" href=""> more <i class="icon-arrow-right"></i></a></span></p>
+                                                <!-- <img class="mt-2" style="height: auto; width:50%;" alt="" src="https://file.techscience.com/uploads/imgs/202211/6abebd95d75894d3313b6f290a208fd2.png/origin?t=20220620"> -->
                                             </div>
                                             <div class="card-footer bg-white">
                                                 <i class="icon-eye"></i><span> View</span><span style="color: brown;"> 100</span><i class="icon-download ms-3"></i><span> Download</span><span style="color: brown;"> 50</span>
@@ -88,11 +97,12 @@
                                     <div class="col">
                                         <div style="border-radius: 0; border:0px solid red;" class="card h-100 card-hover shadow">
                                             <div class="card-body">
-                                                <h5 style="color: brown;" class="card-title fs-6 fw-bold"> <a class="article-card-heading" style="color: inherit;" href="">Magnetic mitohormesis: A non-invasive therapy for inflammatory disorders?</a></h5>
+                                                <span style="background-color: #001c54; color:white; font-size:12px;padding:2px;" class="fw-700">Open Access</span><span style="background-color: brown; color:white; font-size:12px;padding:2px;" class="fw-700 ms-1">Article</span>
+                                                <h5 style="color: brown;" class="card-title fs-6 fw-bold mt-2"> <a class="article-card-heading" style="color: inherit;" href="">Magnetic mitohormesis: A non-invasive therapy for inflammatory disorders?</a></h5>
                                                 <p style="color: rgba(0,0,0,.8); text-transform:uppercase;font-size: 14px;" class="pt-1 m-0">Azizur Rahman, Gazi Arafat Uz-Zaman Markony, Tanjil Ahmed</p>
                                                 <p style="color: rgba(0,0,0,.8); font-size: 14px;" class="m-0">BIOCELL, Vol.47, No.2, pp. 239-244, 2023, DOI:10.32604/biocell.2023.025357</p>
-                                                <p class="p-0 m-0"><a href="">Abstract</a> An organism’s survival depends on its ability to adapt to stress. Mitochondria are the cellular integrators of environmental stressors that ultimately translate their responses at the organismal level, and are thus central to the process whereby organisms adapt to their respective environments. Mitochondria produce molecular energy via oxidative phosphorylation that then allows cells to biosynthetically respond and adapt to changes in their environment. Reactive oxygen species (ROS) are by-products of oxidative phosphorylation that can be either beneficial or damaging, depending on the context; ROS are hence both the conveyors of environmental stress as well as cellular “adaptogens”. Mitohormesis refers to <span style="color: brown;"><a style="color:inherit;" href=""> more <i class="icon-arrow-right"></i></a></span></p>
-                                                <img class="mt-2" style="height: auto; width:50%;" alt="" src="https://file.techscience.com/uploads/imgs/202211/6abebd95d75894d3313b6f290a208fd2.png/origin?t=20220620">
+                                                <p class="p-0 m-0"><a href="">Abstract</a> An organism’s survival depends on its ability to adapt to stress. Mitochondria are the cellular integrators of environmental stressors that ultimately translate their responses at the organismal level, and are thus central to the process whereby organisms adapt to their respective environments. Mitochondria produce molecular energy via oxidative <span style="color: brown;"><a style="color:inherit;" href=""> more <i class="icon-arrow-right"></i></a></span></p>
+                                                <!-- <img class="mt-2" style="height: auto; width:50%;" alt="" src="https://file.techscience.com/uploads/imgs/202211/6abebd95d75894d3313b6f290a208fd2.png/origin?t=20220620"> -->
                                             </div>
                                             <div class="card-footer bg-white">
                                                 <i class="icon-eye"></i><span> View</span><span style="color: brown;"> 100</span><i class="icon-download ms-3"></i><span> Download</span><span style="color: brown;"> 50</span>
