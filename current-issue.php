@@ -27,13 +27,13 @@
                 <div class="col-md-3">
                     <div class="bg-white shadow p-3 mb-3">
                         <!-- <h5 class="text-start">jkkniu Official Journal</h5> -->
-                        <a style="background-color: #001C54;color:white; border:1px solid #001C54;" href="" class="btn btn-outline-success w-100 p-1 submit-to-btn">Submit to JOF</a>
-                        <a href="" class="btn btn-success w-100 mt-2 p-1">Review for JOF</a>
+                        <a style="background-color: #001C54;color:white; border:1px solid #001C54; font-size: 14px;" href="" class="btn btn-outline-success w-100 p-1 submit-to-btn">Submit to JOF</a>
+                        <a href="" style="font-size: 14px;" class="btn btn-success w-100 mt-2 p-1">Review for JOF</a>
                         <div class="mt-2 d-flex justify-content-between">
-                            <a class="btn btn-outline-success py-1 px-2"><i class="icon-twitter"></i></a><a class="btn btn-outline-success py-1 ms-1"><i class="icon-facebook"></i></a><a class="btn btn-outline-success py-1 ms-1 w-100">Share</i></a>
+                            <a class="btn btn-outline-success py-1 px-2"><i class="icon-twitter"></i></a><a class="btn btn-outline-success py-1 ms-1"><i class="icon-facebook"></i></a><a style="font-size: 14px;" class="btn btn-outline-success py-1 ms-1 w-100">Share</i></a>
                         </div>
                     </div>
-                    <div class="border shadow bg-white">
+                    <div class="border shadow bg-white mb-3">
                         <div style="border-top:4px solid brown;"></div>
                         <a style="text-decoration: none; color:inherit" href="journal-details.php" class="p-2 d-block border-bottom journal-tab-item">Home</a>
                         <a style="text-decoration: none; color:inherit" href="editorial-board.php" class="p-2 d-block border-bottom journal-tab-item">Editorial Board</a>
@@ -41,22 +41,60 @@
                         <a style="text-decoration: none; color:inherit" href="volume-issue.php" class="p-2 d-block border-bottom journal-tab-item">Volume and Issues</a>
                         <a style="text-decoration: none; color:inherit" href="contact-journal.php" class="p-2 d-block journal-tab-item">Contact the Journal</a>
                     </div>
+                    <div class="bg-white shadow p-3">
+                        <h6 style="border-bottom:1px solid brown;" class="text-center pb-2 fw-bold">Highly accessed</h6>
+                        <div class="mb-3">
+                            <span style="background-color: brown; color:white; font-size:14px;padding:2px;" class="fw-700">Research Article</span>
+                            <h5 style="color: brown;" class="card-title fs-6 fw-bold mt-2"> <a class="article-card-heading" style="color: inherit;" href="">Magnetic mitohormesis: A non-invasive therapy for inflammatory disorders?</a></h5>
+                            <p style="color: rgba(0,0,0,.8);font-size: 16px;" class="pt-1 m-0">Azizur Rahman, Gazi Arafat Uz-Zaman Markony, Tanjil Ahmed</p>
+                        </div>
+                        <div>
+                            <span style="background-color: brown; color:white; font-size:14px;padding:2px;" class="fw-700">Research Article</span>
+                            <h5 style="color: brown;" class="card-title fs-6 fw-bold mt-2"> <a class="article-card-heading" style="color: inherit;" href="">Magnetic mitohormesis: A non-invasive therapy for inflammatory disorders?</a></h5>
+                            <p style="color: rgba(0,0,0,.8);font-size: 16px;" class="pt-1 m-0">Azizur Rahman, Gazi Arafat Uz-Zaman Markony, Tanjil Ahmed</p>
+                        </div>
+                    </div>
                 </div>
                 <div class="col-md-9">
                     <!-- <h3 style="background-color: rgba(0,0,0,.02);" class="fs-4 text-center article-title fw-bold border px-2 py-3">Journal of Governance and Development</h3>
                     <div class="px-2 py-3 border"> -->
                     <div class="bg-light">
                         <div>
-                            <h4 class="fw-bold px-0 pb-2 text-center m-0">Current Issue</h4>
                             <div>
+                                <div>
+                                    <div class="row mb-4">
+                                        <div class="col-md-6">
+                                            <div class="d-flex">
+                                                <img style="width:30%" alt="" src="images/Governance.png">
+                                                <div class="ps-3">
+                                                    <h6 class="fw-bold">Volume:1 Issue:1</h6>
+                                                    <p class="fw-bold">November 2022</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div style="border-left:2px solid #001C54 ;" class="ps-3 col-md-6">
+                                            <div class="d-flex align-items-center">
+                                                <span style="padding:4px; border:2px solid brown;border-radius:50%;"></span><a class="ms-1" style="color:black; font-size:16px;" href="">About Cover</a>
+                                            </div>
+                                            <div class="d-flex align-items-center">
+                                                <span style="padding:4px; border:2px solid brown;border-radius:50%;"></span><a class="ms-1" style="color:black; font-size:16px;" href="">Table of Content(pdf)</a>
+                                            </div>
+                                            <div class="d-flex align-items-center">
+                                                <a class="btn btn-outline-success p-1 px-3 mt-3" href="">View past issue <i class="icon-arrow-right"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
                                 <div class="row row-cols-1 row-cols-md-1 g-4">
                                     <div class="col">
                                         <div style="border-radius: 0; border:0px solid red;" class="card h-100 card-hover shadow">
                                             <div class="card-body">
-                                                <span style="background-color: #001c54; color:white; font-size:12px;padding:2px;" class="fw-700">Open Access</span><span style="background-color: brown; color:white; font-size:12px;padding:2px;" class="fw-700 ms-1">Article</span>
+                                                <span style="background-color: #001c54; color:white; font-size:14px;padding:2px;" class="fw-700"><i class="icon-unlock"></i> Open Access</span>
+                                                <span style="background-color: brown; color:white; font-size:14px;padding:2px;" class="fw-700 ms-1">Research Article</span>
+                                                <span style="background-color: brown; color:white; font-size:14px;padding:2px;" class="fw-700 ms-1">November 2022</span>
                                                 <h5 style="color: brown;" class="card-title fs-6 fw-bold mt-2"> <a class="article-card-heading" style="color: inherit;" href="">Magnetic mitohormesis: A non-invasive therapy for inflammatory disorders?</a></h5>
                                                 <p style="color: rgba(0,0,0,.8); text-transform:uppercase;font-size: 14px;" class="pt-1 m-0">Azizur Rahman, Gazi Arafat Uz-Zaman Markony, Tanjil Ahmed</p>
-                                                <p style="color: rgba(0,0,0,.8); font-size: 14px;" class="m-0">BIOCELL, Vol.47, No.2, pp. 239-244, 2023, DOI:10.32604/biocell.2023.025357</p>
                                                 <p class="p-0 m-0"><a href="">Abstract</a> An organism’s survival depends on its ability to adapt to stress. Mitochondria are the cellular integrators of environmental stressors that ultimately translate their responses at the organismal level, and are thus central to the process whereby organisms adapt to their respective environments. Mitochondria produce molecular energy via oxidative <span style="color: brown;"><a style="color:inherit;" href=""> more <i class="icon-arrow-right"></i></a></span></p>
                                                 <!-- <img class="mt-2" style="height: auto; width:50%;" alt="" src="https://file.techscience.com/uploads/imgs/202211/6abebd95d75894d3313b6f290a208fd2.png/origin?t=20220620"> -->
                                             </div>
@@ -68,10 +106,11 @@
                                     <div class="col">
                                         <div style="border-radius: 0; border:0px solid red;" class="card h-100 card-hover shadow">
                                             <div class="card-body">
-                                                <span style="background-color: #001c54; color:white; font-size:12px;padding:2px;" class="fw-700">Open Access</span><span style="background-color: brown; color:white; font-size:12px;padding:2px;" class="fw-700 ms-1">Article</span>
+                                                <span style="background-color: #001c54; color:white; font-size:14px;padding:2px;" class="fw-700"><i class="icon-unlock"></i> Open Access</span>
+                                                <span style="background-color: brown; color:white; font-size:14px;padding:2px;" class="fw-700 ms-1">Research Article</span>
+                                                <span style="background-color: brown; color:white; font-size:14px;padding:2px;" class="fw-700 ms-1">November 2022</span>
                                                 <h5 style="color: brown;" class="card-title fs-6 fw-bold mt-2"> <a class="article-card-heading" style="color: inherit;" href="">Magnetic mitohormesis: A non-invasive therapy for inflammatory disorders?</a></h5>
                                                 <p style="color: rgba(0,0,0,.8); text-transform:uppercase;font-size: 14px;" class="pt-1 m-0">Azizur Rahman, Gazi Arafat Uz-Zaman Markony, Tanjil Ahmed</p>
-                                                <p style="color: rgba(0,0,0,.8); font-size: 14px;" class="m-0">BIOCELL, Vol.47, No.2, pp. 239-244, 2023, DOI:10.32604/biocell.2023.025357</p>
                                                 <p class="p-0 m-0"><a href="">Abstract</a> An organism’s survival depends on its ability to adapt to stress. Mitochondria are the cellular integrators of environmental stressors that ultimately translate their responses at the organismal level, and are thus central to the process whereby organisms adapt to their respective environments. Mitochondria produce molecular energy via oxidative <span style="color: brown;"><a style="color:inherit;" href=""> more <i class="icon-arrow-right"></i></a></span></p>
                                                 <!-- <img class="mt-2" style="height: auto; width:50%;" alt="" src="https://file.techscience.com/uploads/imgs/202211/6abebd95d75894d3313b6f290a208fd2.png/origin?t=20220620"> -->
                                             </div>
